@@ -45,6 +45,11 @@ function clearBaiduSearchAD () {
             e.parentNode.removeChild(e);
         }
     });
+    
+     // 移除搜索结果头部与尾部的推广Jackie #shadow-root
+    Array.prototype.forEach.call(document.body.querySelectorAll(".c-container /deep/ .c-container"), function(e) {         
+            e.parentNode.removeChild(e);         
+    });
 }
 
 clearBaiduSearchAD();
