@@ -23,8 +23,8 @@
 // @version           0.2.6
 // @license           LGPLv3
 
-// @match             http://www.baidu.com/s*
-// @match             https://www.baidu.com/s*
+// @match             http://www.baidu.com/*
+// @match             https://www.baidu.com/*
 // @grant             none
 // @run-at            document-end
 // ==/UserScript==
